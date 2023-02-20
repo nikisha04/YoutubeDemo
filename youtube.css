@@ -1,0 +1,171 @@
+
+
+
+body{
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+}
+.left-section{
+    position: relative;
+    width: 23%;
+}
+.hamburger-menu{
+    width: 32px;
+    height: 25px;
+    margin-left: 15px;
+    position: absolute;
+    top: 13px;
+}
+.youtube-logo{
+    width: 72px;
+    height: 70px;
+    margin-left: 15px;
+    position: absolute;
+    left: 50px;
+    top: -10px;
+}
+.thumbnail-1 {
+    width: 355px ;
+}
+.middle-section{
+    align-items: center;
+    display: flex;
+    width: 500px;
+    flex:1;
+    margin-left: 175px;
+}
+.search{
+    font-size: 14px;
+    color: rgb(199, 196, 196);
+    border: rgb(218, 212, 212) solid 1px;
+    padding-left: 13px;
+    width: 55%;
+    height: 35px;
+
+}
+.search-button{
+    height: 40px;
+    width: 35px;
+}
+
+.voice-search{
+    width:40px ;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px;
+} 
+.right-section{
+    width:15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.create{
+    width:28px;
+    height: 26px;
+}
+.youtube-apps{
+    width: 28px;
+    height: 26px;
+   
+}
+.notification{
+    width: 28px;
+    height: 26px;
+   
+}
+.channel-picture{
+    width: 35px;
+    height: 35px;
+   }
+.menu-bar{
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:81px;
+    background-color: white;
+    padding: 16px;
+
+    
+}
+.icon{
+    width: 35px;
+    height: 31px;
+
+}
+.icon-name{
+    font-size: 10px;
+    font-family: arial;
+    margin-top: 5px;
+}
+.menu-item{
+    margin-bottom: 18px;
+}
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 25px;
+    background-color:#f9f9f9;
+}
+.video-information{
+    margin-top: 12px;
+}
+.profile-picture {
+    width: 40px;
+    display: inline-block;
+    
+    vertical-align: top;
+    border-radius: 40px;
+
+
+}
+.video-details {
+    display: inline-block;
+    width: 300px;
+    margin-left: 9px;
+    vertical-align: text-top;
+
+}
+.video-title {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.channel-name {
+    font-size: 14px;
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.video-stats {
+    font-size: 14px;
+    font-family: arial;
+    margin-top: 0;
+
+}
+
+
