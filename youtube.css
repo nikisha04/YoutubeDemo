@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding-top: 60px;
-    padding-left: 120px;
+    
 }
 .header{
     display: flex;
@@ -95,21 +95,21 @@ body{
     height: 35px;
    }
 .menu-bar{
-    width: 45px;
+    width: 5%;
     display: flex;
     flex-direction: column;
     position: fixed;
     left: 0;
     bottom: 0;
-    top:81px;
+    top:55px;
     background-color: white;
-    padding: 16px;
+    padding: 11px 0px 10px 10px;
 
     
 }
 .icon{
-    width: 35px;
-    height: 31px;
+    width: 31px;
+    height: 28px;
 
 }
 .icon-name{
@@ -121,14 +121,19 @@ body{
     margin-bottom: 18px;
 }
 
-
 .video-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
-    padding: 25px;
+    padding: 25px 10px 10px 0px;
     background-color:#f9f9f9;
+    width: 95%;
 }
+.video{
+    padding-top: 55px;
+    
+}
+
 .video-information{
     margin-top: 12px;
 }
